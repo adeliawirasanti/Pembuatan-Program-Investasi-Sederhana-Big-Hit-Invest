@@ -62,13 +62,13 @@ public class Main {
     private static void tampilkanMenuAwal() {
         System.out.println("====================================================");
         System.out.println("||                  W E L C O M E                 ||");
-        System.out.println("||                  LOGIN PAGE                   ||");
+        System.out.println("||                   LOGIN PAGE                   ||");
         System.out.println("====================================================");
-        System.out.println("||  Pilih Tipe User Di bawah                     ||");
-        System.out.println("||                                               ||");
-        System.out.println("||  [1] Admin                                    ||");
-        System.out.println("||  [2] Customer                                 ||");
-        System.out.println("||  [0] Keluar Program                           ||");
+        System.out.println("||  Pilih Tipe User Di bawah                      ||");
+        System.out.println("||                                                ||");
+        System.out.println("||  [1] Admin                                     ||");
+        System.out.println("||  [2] Customer                                  ||");
+        System.out.println("||  [0] Keluar Program                            ||");
         System.out.println("====================================================");
     }
 
@@ -86,9 +86,9 @@ public class Main {
         String pass = scanner.nextLine();
 
         if (uname.equals(admin.getUsername()) && pass.equals(admin.getPassword())) {
-            System.out.println("\n====================================================");
-            System.out.println("||             Hallo Admin, Adel                 ||");
-            System.out.println("||     Tekan Enter untuk melanjutkan...         ||");
+            System.out.println("\n==================================================");
+            System.out.println("||              Hallo Admin, Adel                 ||");
+            System.out.println("||       Tekan Enter untuk melanjutkan...         ||");
             System.out.println("====================================================");
             tekanEnterUntukLanjut();
             return true;
@@ -104,7 +104,7 @@ public class Main {
         clearScreen();
         System.out.println("====================================================");
         System.out.println("||                    L O G I N                   ||");
-        System.out.println("||  Mohon Masukkan Username dan Password         ||");
+        System.out.println("||       Mohon Masukkan Username dan Password     ||");
         System.out.println("====================================================");
 
         System.out.print("Masukkan username Anda: ");
@@ -114,8 +114,8 @@ public class Main {
 
         if (uname.equals(customer.getUsername()) && pass.equals(customer.getPassword())) {
             System.out.println("\n====================================================");
-            System.out.println("||             Hallo Customer, Mita              ||");
-            System.out.println("||     Tekan Enter untuk melanjutkan...         ||");
+            System.out.println("||             Hallo Customer, Mita               ||");
+            System.out.println("||       Tekan Enter untuk melanjutkan...         ||");
             System.out.println("====================================================");
             tekanEnterUntukLanjut();
             return true;
