@@ -5,17 +5,16 @@
 HIIII!!! Ini adalah proyek kecil kami, yaitu pembuatan program investasi sederhana Bernama Bighit Invest, yang digunakan untuk untuk memenuhi tugas I dari mata kliah Pemrograman Berorientasi Objek (PBO) dengan implementasi struktur kode modular yang bersih dan terorganisir.
 
 BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) berbasis Command Line Interface (CLI). Aplikasi ini memungkinkan pengguna (admin dan customer) untuk melakukan investasi, memeriksa saldo, dan melakukan transaksi saham serta SBN
---------------------------------------------------------------------------------------------
+
 
 **Identitas Kami**
 ------------------------------------------------------
 1. Ni Made Adelia Wirasanti NIM: 2405551010 Kelas PBO B
 2. Nyoman Paramita Windari NIM: 2405551050 Kelas PBO B
----------------------------------------------------------------------------------------------
+
 
 **UML**
-
----------------------------------------------------------------------------------------------
+-------------------------------------------------------
 
 **Fitur Utama**
 ------------------------------------------------------
@@ -25,7 +24,7 @@ BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) be
 - Cek Saldo: Pengguna dapat memeriksa saldo akun mereka.
 - Validasi Input: Program memvalidasi semua input dari pengguna untuk memastikan data yang dimasukkan valid.
 - Menu Interaktif: Menggunakan menu untuk memudahkan navigasi.
-----------------------------------------------------------------------------------------------
+
 
 **Penjelasan Kode**
 ----------------------------------------------------
@@ -47,7 +46,7 @@ Folder ini berisi kelas-kelas yang menangani logika bisnis utama aplikasi:
 
 **4. utils/**
 Folder ini berisi kelas InputValidator.java yang digunakan untuk memvalidasi input dari pengguna agar tidak ada data yang salah atau tidak valid.
------------------------------------------------------------------------------------------------
+
 
 **Bagaimana Program Dijalankan**
 --------------------------------------------
