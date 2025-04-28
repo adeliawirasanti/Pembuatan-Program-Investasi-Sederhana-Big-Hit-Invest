@@ -29,4 +29,8 @@ public class SuratBerhargaNegara {
     public String toString() {
         return nama + " - Bunga: " + bunga + "%, Jangka: " + jangkaWaktu + " bulan, Jatuh Tempo: " + tanggalJatuhTempo + ", Kuota: Rp" + kuotaNasional;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f

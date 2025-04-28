@@ -87,7 +87,11 @@ public class Main {
 
         if (uname.equals(admin.getUsername()) && pass.equals(admin.getPassword())) {
             System.out.println("\n==================================================");
+<<<<<<< HEAD
             System.out.println("||              Hallo Admin, ADEL                 ||");
+=======
+            System.out.println("||              Hallo Admin, Adel                 ||");
+>>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
             System.out.println("||       Tekan Enter untuk melanjutkan...         ||");
             System.out.println("====================================================");
             tekanEnterUntukLanjut();
@@ -114,7 +118,11 @@ public class Main {
 
         if (uname.equals(customer.getUsername()) && pass.equals(customer.getPassword())) {
             System.out.println("\n====================================================");
+<<<<<<< HEAD
             System.out.println("||             Hallo Customer, MITA               ||");
+=======
+            System.out.println("||             Hallo Customer, Mita               ||");
+>>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
             System.out.println("||       Tekan Enter untuk melanjutkan...         ||");
             System.out.println("====================================================");
             tekanEnterUntukLanjut();
