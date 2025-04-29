@@ -101,9 +101,16 @@ Menu Customer
 ![Screenshot 2025-04-29 111415](https://github.com/user-attachments/assets/00d568dc-e0b3-40ae-9af5-aba18a541971)
 
 Beli Saham
+![Screenshot 2025-04-29 122123](https://github.com/user-attachments/assets/6ab54e6f-d882-4d17-ad7e-02ed1e7bb1c2)
+
+![Screenshot 2025-04-29 122057](https://github.com/user-attachments/assets/dd3907e4-8e93-45a2-9946-abaeac7564f1)
+
 ![Screenshot 2025-04-29 113618](https://github.com/user-attachments/assets/142092a1-3887-410b-b0ed-5736e6df99f7)
 
 Jual Saham
+![Screenshot 2025-04-29 122231](https://github.com/user-attachments/assets/bbc895bf-dc46-40d3-80f1-eace8d127db0)
+
+![Screenshot 2025-04-29 122643](https://github.com/user-attachments/assets/3da79b6b-b67b-4318-bb66-b07e90f22a92)
 
 ![Screenshot 2025-04-29 113856](https://github.com/user-attachments/assets/68d7073d-c938-4998-ac30-28207661c8ca)
 
@@ -112,12 +119,14 @@ Beli SBN
 ![Screenshot 2025-04-29 111907](https://github.com/user-attachments/assets/e1d56fbb-156d-4d93-9c48-ac028ba9a0af)
 
 Simulasi SBN
+![Screenshot 2025-04-29 112054](https://github.com/user-attachments/assets/ad2273e8-b0da-468d-913d-3bc32d36af77)
 
 ![Screenshot 2025-04-29 112150](https://github.com/user-attachments/assets/ff2f7663-b085-4992-9cc4-c6aa747ef6d1)
 
 ![Screenshot 2025-04-29 113051](https://github.com/user-attachments/assets/4d2fcdbf-efbf-4ae9-8e9e-0e4d7d84acf6)
 
 Portofolio
+![Screenshot 2025-04-29 113123](https://github.com/user-attachments/assets/b825bfee-1e4e-479d-935f-c3150cf3ea87)
 
 ![Screenshot 2025-04-29 113123](https://github.com/user-attachments/assets/cb2bf983-bac3-4a1d-b069-d78b84783034)
 
