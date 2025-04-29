@@ -87,12 +87,12 @@ Setelah memilih opsi login, user akan diminta memasukkan username dan password s
 --------------------------------------
 ![Screenshot 2025-04-29 105022](https://github.com/user-attachments/assets/6e0695bf-1a22-4ca6-8f2a-cbea230a7697)
 
-![Screenshot 2025-04-29 105221](https://github.com/user-attachments/assets/4d4961eb-5fe9-408d-871f-5625afe3ac60)
-
 Di menu admin ini, tersedia dua pilihan utama yang bisa dipilih, yaitu Saham dan Surat Berharga Negara (SBN).
 
 **Menu Admin Tambah Saham**
 ----------------------------------------
+
+![Screenshot 2025-04-29 105221](https://github.com/user-attachments/assets/4d4961eb-5fe9-408d-871f-5625afe3ac60)
 
 ![Screenshot 2025-04-29 105243](https://github.com/user-attachments/assets/baf644ee-8a04-43b9-ab73-c42c5bd5bb56)
 
@@ -121,8 +121,6 @@ Pada menu ini, pengguna dapat memperbarui harga saham dengan cara memasukkan kod
 ![Screenshot 2025-04-29 111053](https://github.com/user-attachments/assets/269672f3-93e1-4563-8cf8-e9ebe7a8e519)
 
 ![Screenshot 2025-04-29 111204](https://github.com/user-attachments/assets/3e70e6d2-d7a8-493c-b3aa-c37a8bb97722)
-
-![Screenshot 2025-04-29 111230](https://github.com/user-attachments/assets/06261f02-472d-4ae9-9cbe-d7a325ec8def)
 
 Apabila admin memilih opsi Surat Berharga Negara (SBN), maka akan muncul pilihan untuk menambahkan SBN baru, yang meliputi pengisian informasi seperti nama, bunga, jangka waktu, jatuh tempo, dan kuota nasional, sesuai dengan gambar di atas.
 
@@ -158,18 +156,9 @@ Jika customer berencana untuk menjual saham, sistem akan menampilkan terlebih da
 **Menu Customer Beli SBN**
 ----------------------------------------
 
+![Screenshot 2025-04-29 111843](https://github.com/user-attachments/assets/8a9dff2d-844a-4186-861a-d544d27c7384)
+
 ![Screenshot 2025-04-29 111907](https://github.com/user-attachments/assets/e1d56fbb-156d-4d93-9c48-ac028ba9a0af)
-
-Di bagian pembelian SBN, customer juga dapat melihat daftar SBN yang tersedia untuk dibeli.
-
-**Menu Customer Beli SBN**
-----------------------------------------
-
-![Screenshot 2025-04-29 112054](https://github.com/user-attachments/assets/ad2273e8-b0da-468d-913d-3bc32d36af77)
-
-![Screenshot 2025-04-29 112150](https://github.com/user-attachments/assets/ff2f7663-b085-4992-9cc4-c6aa747ef6d1)
-
-![Screenshot 2025-04-29 113051](https://github.com/user-attachments/assets/4d2fcdbf-efbf-4ae9-8e9e-0e4d7d84acf6)
 
 Di bagian pembelian SBN, customer juga dapat melihat daftar SBN yang tersedia untuk dibeli.
 
@@ -196,6 +185,8 @@ Pada menu portofolio, akan ditampilkan Saham dan SBN yang dimiliki oleh customer
 
 **Menu Logout**
 ----------------------------------------
+
+![Screenshot 2025-04-29 111230](https://github.com/user-attachments/assets/06261f02-472d-4ae9-9cbe-d7a325ec8def)
 
 ![Screenshot 2025-04-29 114025](https://github.com/user-attachments/assets/76747ffb-ab60-441c-9273-4cad4a589f19)
 
