@@ -57,13 +57,12 @@ public class Main {
         System.out.println("=====================================================================");
         System.out.println("||                        W E L C O M E  T O                       ||");
         System.out.println("||                     B I G H I T  I N V E S T                    ||");
-        System.out.println("||                            LOGIN PAGE                           ||");
         System.out.println("=====================================================================");
         System.out.println("||               Silahkan Pilih Tipe User Di bawah ini             ||");
         System.out.println("||                                                                 ||");
         System.out.println("|| [1] Admin                                                       ||");
         System.out.println("|| [2] Customer                                                    ||");
-        System.out.println("|| [3] Keluar Program                                              ||");
+        System.out.println("|| [3] Logout                                                      ||");
         System.out.println("=====================================================================");
     }
 
