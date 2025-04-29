@@ -8,6 +8,7 @@ import Service.InvestasiService;
 
 public class AdminService {
 
+    // Menampilkan menu utama untuk Admin
     public static void menuAdmin(Scanner scanner, Admin admin) {
         boolean isRunning = true;
 
@@ -35,7 +36,8 @@ public class AdminService {
             }
         }
     }
-
+    
+    // Menampilkan daftar menu utama Admin
     private static void tampilkanMenuAdmin() {
         System.out.println("====================================================");
         System.out.println("||                   MENU ADMIN                   ||");
@@ -47,7 +49,8 @@ public class AdminService {
         System.out.println("||  [3] Logout                                     ||");
         System.out.println("====================================================");
     }
-
+    
+    // Menu pengelolaan Saham
     private static void menuSaham(Scanner scanner) {
         boolean isRunning = true;
 
@@ -74,7 +77,8 @@ public class AdminService {
             }
         }
     }
-
+    
+    // Menampilkan daftar menu Saham
     private static void tampilkanMenuSaham() {
         System.out.println("====================================================");
         System.out.println("||                  MENU SAHAM                    ||");
@@ -86,7 +90,8 @@ public class AdminService {
         System.out.println("||  [3] Kembali                                   ||");
         System.out.println("====================================================");
     }
-
+    
+    // Menambahkan Saham baru
     private static void tambahSaham(Scanner scanner) {
         System.out.print("Masukkan kode saham: ");
         String kode = scanner.nextLine();
@@ -102,7 +107,8 @@ public class AdminService {
         System.out.println("Saham " + namaPerusahaan + " (" + kode + ") berhasil ditambahkan dengan harga Rp " + harga);
         tekanEnterUntukLanjut();
     }
-
+    
+    // Mengubah harga saham yang sudah ada
     private static void ubahHargaSaham(Scanner scanner) {
         System.out.print("Masukkan kode saham yang akan diubah harganya: ");
         String kode = scanner.nextLine();
@@ -119,7 +125,8 @@ public class AdminService {
         }
         tekanEnterUntukLanjut();
     }
-
+    
+    // Menu pengelolaan Surat Berharga Negara (SBN)
     private static void menuSBN(Scanner scanner) {
         boolean isRunning = true;
 
@@ -143,7 +150,8 @@ public class AdminService {
             }
         }
     }
-
+    
+    // Menampilkan daftar menu SBN
     private static void tampilkanMenuSBN() {
         System.out.println("====================================================");
         System.out.println("||               MENU SURAT BERHARGA              ||");
@@ -155,6 +163,7 @@ public class AdminService {
         System.out.println("====================================================");
     }
 
+    // Menambahkan SBN baru
     private static void tambahSBN(Scanner scanner) {
         System.out.print("Masukkan nama SBN: ");
         String nama = scanner.nextLine();
@@ -175,16 +184,17 @@ public class AdminService {
         System.out.println("SBN " + nama + " berhasil ditambahkan dengan bunga " + bunga + "% dan kuota Rp " + kuota);
         tekanEnterUntukLanjut();
     }
-
+    
+    // Mmeminta user menekan Enter untuk lanjut
     private static void tekanEnterUntukLanjut() {
         System.out.print("Tekan Enter untuk melanjutkan...");
         new Scanner(System.in).nextLine();
     }
 
+    // Clear layar console 
     private static void clearScreen() {
         for (int i = 0; i < 50; i++) {
             System.out.println();
         }
     }
 }
-
