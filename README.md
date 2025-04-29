@@ -3,9 +3,14 @@
 
 **PEMBUATAN PROGRAM INVESTASI SEDERHANA Bighit Invest**
 -------------------------------------------------------
-HIIII!!! Ini adalah proyek kecil kami, yaitu pembuatan program investasi sederhana bernama Bighit Invest, yang digunakan untuk untuk memenuhi tugas I dari mata kuliah Pemrograman Berorientasi Objek (PBO) dengan implementasi struktur kode modular yang bersih dan terorganisir.
+HIIII!!! 👋😄
+Ini adalah proyek kecil kami, yaitu pembuatan program investasi sederhana bernama BigHit Invest 💰📈, yang digunakan untuk memenuhi Tugas I dari mata kuliah Pemrograman Berorientasi Objek (PBO) 👨‍💻👩‍💻 dengan implementasi struktur kode yang modular, bersih, dan juga terorganisir.
 
-BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) berbasis Command Line Interface (CLI). Aplikasi ini memungkinkan pengguna yaitu admin dan customer untuk melakukan investasi, memeriksa saldo, dan melakukan transaksi saham serta SBN
+BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) berbasis Command Line Interface (CLI). Aplikasi ini memungkinkan pengguna, yaitu admin dan customer, untuk:
+- Melakukan investasi 📊
+- Memeriksa portofolio 🧾
+- Melakukan transaksi jual beli saham dan SBN 📉📈
+Semua dijalankan dari terminal dengan antarmuka teks yang simpel namun interaktif!
 
 
 **IDENTITAS KAMI**
@@ -20,12 +25,35 @@ BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) be
 
 **FITUR UTAMA**
 ------------------------------------------------------
-- Login untuk Admin dan Customer: Admin dan Customer dapat login menggunakan username dan password.
-- Investasi Saham: Customer dapat membeli dan menjual saham.
-- Investasi SBN: Customer dapat membeli dan menjual Surat Berharga Negara (SBN).
-- Cek Portofolio: Pengguna dapat memeriksa portofolio Saham dan SBN akun mereka.
-- Validasi Input: Program memvalidasi semua input dari pengguna untuk memastikan data yang dimasukkan valid.
-- Menu Interaktif: Menggunakan menu untuk memudahkan navigasi.
+1.🔐 Login untuk Admin dan Customer
+Pengguna dapat login sebagai:
+Admin (contoh: username ADEL, password adel123)
+Customer (contoh: username MITA, password mita123)
+Login dilakukan melalui antarmuka teks dan diverifikasi menggunakan class User dan subclass-nya (Admin, Customer).
+
+2.📈 Investasi Saham
+Fitur untuk Customer:
+- Membeli saham berdasarkan daftar yang tersedia di sistem
+- Menjual saham yang sudah dimiliki
+- Saham yang dimiliki disimpan dalam Map<Saham, Integer> di class Customer
+
+3.🏦 Investasi Surat Berharga Negara (SBN)
+Fitur untuk Customer:
+- Membeli SBN berdasarkan nama dan nominal yang tersedia
+- Sistem otomatis mengurangi kuota nasional dari SBN yang dibeli
+- Simulasi kupon bulanan dari SBN juga tersedia
+- Portofolio SBN disimpan dalam Map<SuratBerhargaNegara, Double>
+
+4.📊 Cek Portofolio
+Pengguna dapat melihat portofolio investasi mereka, yaitu:
+- Saham yang dimiliki dan jumlah lembarnya
+- Surat Berharga Negara yang dimiliki dan nominal investasinya
+
+5.✅ Validasi Input
+Class ValidasiInput menyediakan berbagai metode validasi seperti:
+- Format nama, nominal uang, tanggal (dd-MM-yyyy), jenis investasi
+- Rentang angka dan ID yang valid
+Validasi ini mencegah kesalahan input dan memastikan integritas data
 
 
 **PENJELASAN KODE**
@@ -63,7 +91,7 @@ Program ini dijalankan dengan menerapkan konsep Object Oriented Programming (OOP
 
 **PENGGUNAAN PROGRAM**
 -----------------------------------------
-Bagian berikut menunjukkan langkah penggunaan program, disertai gambar hasil eksekusi serta penjelasan di bawahnya.
+Bagian berikut menunjukkan langkah-langkah dari penggunaan program, disertai gambar hasil eksekusi serta penjelasan di bawahnya.
 
 **LOG IN ADMIN & CUSTOMER**
 -----------------------------------------
