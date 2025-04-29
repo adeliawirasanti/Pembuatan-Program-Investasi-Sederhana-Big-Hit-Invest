@@ -26,34 +26,37 @@ Semua dijalankan dari terminal dengan antarmuka teks yang simpel namun interakti
 
 **FITUR UTAMA**
 ------------------------------------------------------
-1.🔐 Login untuk Admin dan Customer
+**1.🔐 Login untuk Admin dan Customer**
+
 Pengguna dapat login sebagai:
-Admin (contoh: username ADEL, password adel123)
-Customer (contoh: username MITA, password mita123)
+- Admin (contoh: username ADEL, password adel123)
+- Customer (contoh: username MITA, password mita123)
+  
 Login dilakukan melalui antarmuka teks dan diverifikasi menggunakan class User dan subclass-nya (Admin, Customer).
 
-2.📈 Investasi Saham
+**2.📈 Investasi Saham**
 Fitur untuk Customer:
 - Membeli saham berdasarkan daftar yang tersedia di sistem
 - Menjual saham yang sudah dimiliki
 - Saham yang dimiliki disimpan dalam Map<Saham, Integer> di class Customer
 
-3.🏦 Investasi Surat Berharga Negara (SBN)
+**3.🏦 Investasi Surat Berharga Negara (SBN)**
 Fitur untuk Customer:
 - Membeli SBN berdasarkan nama dan nominal yang tersedia
 - Sistem otomatis mengurangi kuota nasional dari SBN yang dibeli
 - Simulasi kupon bulanan dari SBN juga tersedia
 - Portofolio SBN disimpan dalam Map<SuratBerhargaNegara, Double>
 
-4.📊 Cek Portofolio
+**4.📊 Cek Portofolio**
 Pengguna dapat melihat portofolio investasi mereka, yaitu:
 - Saham yang dimiliki dan jumlah lembarnya
 - Surat Berharga Negara yang dimiliki dan nominal investasinya
 
-5.✅ Validasi Input
+**5.✅ Validasi Input**
 Class ValidasiInput menyediakan berbagai metode validasi seperti:
 - Format nama, nominal uang, tanggal (dd-MM-yyyy), jenis investasi
 - Rentang angka dan ID yang valid
+  
 Validasi ini mencegah kesalahan input dan memastikan integritas data
 
 
@@ -83,12 +86,12 @@ Folder ini berisi kelas InputValidator.java yang digunakan untuk memvalidasi inp
 --------------------------------------------
 Program ini dijalankan dengan menerapkan konsep Object Oriented Programming (OOP), yaitu:
 
-1. Penggunaan Class dan Object
-2. Flow Control
-3. ArrayList
-4. Inheritance
-5. Encapsulation
-6. Static Usage
+**1. Penggunaan Class dan Object**
+**2. Flow Control**
+**3. ArrayList**
+**4. Inheritance**
+**5. Encapsulation**
+**6. Static Usage**
 
 **PENGGUNAAN PROGRAM**
 -----------------------------------------
