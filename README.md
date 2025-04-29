@@ -10,6 +10,7 @@ BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) be
 - Melakukan investasi 📊
 - Memeriksa portofolio 🧾
 - Melakukan transaksi jual beli saham dan SBN 📉📈
+  
 Semua dijalankan dari terminal dengan antarmuka teks yang simpel namun interaktif!
 
 
