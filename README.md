@@ -1,13 +1,14 @@
 **PBO - TUGAS 1**
--------------------------------------------------------
-**Pembuatan Program Investasi Sederhana Bighit Invest**
+======================================================
+
+**PEMBUATAN PROGRAM INVESTASI SEDERHANA Bighit Invest**
 -------------------------------------------------------
 HIIII!!! Ini adalah proyek kecil kami, yaitu pembuatan program investasi sederhana Bernama Bighit Invest, yang digunakan untuk untuk memenuhi tugas I dari mata kuliah Pemrograman Berorientasi Objek (PBO) dengan implementasi struktur kode modular yang bersih dan terorganisir.
 
 BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) berbasis Command Line Interface (CLI). Aplikasi ini memungkinkan pengguna (admin dan customer) untuk melakukan investasi, memeriksa saldo, dan melakukan transaksi saham serta SBN
 
 
-**Identitas Kami**
+**IDENTITAS KAMI**
 ------------------------------------------------------
 1. Ni Made Adelia Wirasanti NIM: 2405551010 Kelas PBO B
 2. Nyoman Paramita Windari NIM: 2405551050 Kelas PBO B
@@ -16,7 +17,7 @@ BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) be
 **UML**
 -------------------------------------------------------
 
-**Fitur Utama**
+**FITUR UTAMA**
 ------------------------------------------------------
 - Login untuk Admin dan Customer: Admin dan Customer dapat login menggunakan username dan password.
 - Investasi Saham: Customer dapat membeli dan menjual saham.
@@ -26,7 +27,7 @@ BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) be
 - Menu Interaktif: Menggunakan menu untuk memudahkan navigasi.
 
 
-**Penjelasan Kode**
+**PENJELASAN KODE**
 ----------------------------------------------------
 **1. Main.java**
 File ini adalah pintu utama untuk menjalankan aplikasi BigHit Invest. Program dimulai dari Main.java yang berfungsi untuk menampilkan menu awal, memproses login untuk Admin dan Customer, serta mengarahkan pengguna ke menu yang sesuai. Seluruh alur interaksi pengguna dikendalikan dari file ini.
@@ -48,9 +49,9 @@ Folder ini berisi kelas-kelas yang menangani logika bisnis utama aplikasi:
 Folder ini berisi kelas InputValidator.java yang digunakan untuk memvalidasi input dari pengguna agar tidak ada data yang salah atau tidak valid.
 
 
-**Bagaimana Program Dijalankan**
+**BAGAIMANA PROGRAM DIJALANKAN**
 --------------------------------------------
 
 
-**Penggunaan Program**
+**PENGGUNAAN PROGRAM**
 -----------------------------------------
