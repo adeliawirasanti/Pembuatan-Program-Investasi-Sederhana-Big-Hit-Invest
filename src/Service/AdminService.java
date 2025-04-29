@@ -41,7 +41,7 @@ public class AdminService {
         System.out.println("=====================================================================");
         System.out.println("||                         M E N U  A D M I N                      ||");
         System.out.println("=====================================================================");
-        System.out.println("||               Silahkan Pilih Tipe User Di bawah ini             ||");
+        System.out.println("||                     Silahkan Pilih Di Bawah Ini                 ||");
         System.out.println("||                                                                 ||");
         System.out.println("||  [1] Saham                                                      ||");
         System.out.println("||  [2] Surat Berharga Negara (SBN)                                ||");
@@ -82,7 +82,7 @@ public class AdminService {
         System.out.println("=====================================================================");
         System.out.println("||                         M E N U  S A H A M                      ||");
         System.out.println("=====================================================================");
-        System.out.println("||               Silahkan Pilih Tipe User Di bawah ini             ||");
+        System.out.println("||                     Silahkan Pilih Di Bawah Ini                 ||");
         System.out.println("||                                                                 ||");
         System.out.println("||  [1] Tambah Saham                                               ||");
         System.out.println("||  [2] Ubah Harga Saham                                           ||");
@@ -163,7 +163,7 @@ public class AdminService {
         System.out.println("=====================================================================");
         System.out.println("||                M E N U  S U R A T  B E R H A R G A              ||");
         System.out.println("=====================================================================");
-        System.out.println("||               Silahkan Pilih Tipe User Di bawah ini             ||");
+        System.out.println("||                   Silahkan Pilih Di Bawah Ini                   ||");
         System.out.println("||                                                                 ||");
         System.out.println("||  [1] Tambah Surat Berharga (SBN)                                ||");
         System.out.println("||  [2] Logout                                                     ||");
