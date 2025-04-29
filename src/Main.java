@@ -1,11 +1,10 @@
 import Service.AdminService;
 import Service.CustomerService;
+import Service.InvestasiService;
 import Model.Admin;
 import Model.Customer;
 import Model.Saham;
 import Model.SuratBerhargaNegara;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -13,17 +12,13 @@ public class Main {
     private static Admin admin = new Admin("ADEL", "adel123");
     private static Customer customer = new Customer("MITA", "mita123");
 
-    // Tambahkan daftarSaham dan daftarSBN di sini
-    private static List<Saham> daftarSaham = new ArrayList<>();
-    private static List<SuratBerhargaNegara> daftarSBN = new ArrayList<>();
-
     public static void main(String[] args) {
-        // Inisialisasi data dummy saham dan SBN
-        daftarSaham.add(new Saham("BBCA", "Bank BCA", 10000));
-        daftarSaham.add(new Saham("TLKM", "Telkom Indonesia", 4000));
+        // Inisialisasi data dummy saham dan SBN langsung ke InvestasiService
+        InvestasiService.tambahSaham(new Saham("BBCA", "Bank BCA", 10000));
+        InvestasiService.tambahSaham(new Saham("TLKM", "Telkom Indonesia", 4000));
 
-        daftarSBN.add(new SuratBerhargaNegara("ORI022", 6.1, 36, "2027-01-15", 500000000));
-        daftarSBN.add(new SuratBerhargaNegara("SR018", 5.5, 24, "2026-10-10", 30000000));
+        InvestasiService.tambahSBN(new SuratBerhargaNegara("ORI022", 6.1, 36, "2027-01-15", 500000000));
+        InvestasiService.tambahSBN(new SuratBerhargaNegara("SR018", 5.5, 24, "2026-10-10", 30000000));
 
         boolean isRunning = true;
 
@@ -42,7 +37,7 @@ public class Main {
                     break;
                 case "2":
                     if (loginCustomer()) {
-                        CustomerService.menuCustomer(scanner, customer, daftarSaham, daftarSBN); // Customer menu
+                        CustomerService.menuCustomer(scanner, customer); // Customer menu
                     }
                     break;
                 case "0":
@@ -77,7 +72,7 @@ public class Main {
         clearScreen();
         System.out.println("====================================================");
         System.out.println("||                    L O G I N                   ||");
-        System.out.println("||  Mohon Masukkan Username dan Password         ||");
+        System.out.println("||  Mohon Masukkan Username dan Password          ||");
         System.out.println("====================================================");
 
         System.out.print("Masukkan username Anda: ");
@@ -87,11 +82,7 @@ public class Main {
 
         if (uname.equals(admin.getUsername()) && pass.equals(admin.getPassword())) {
             System.out.println("\n==================================================");
-<<<<<<< HEAD
-            System.out.println("||              Hallo Admin, ADEL                 ||");
-=======
-            System.out.println("||              Hallo Admin, Adel                 ||");
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
+            System.out.println("||              Hallo Admin, ADEL                ||");
             System.out.println("||       Tekan Enter untuk melanjutkan...         ||");
             System.out.println("====================================================");
             tekanEnterUntukLanjut();
@@ -118,11 +109,7 @@ public class Main {
 
         if (uname.equals(customer.getUsername()) && pass.equals(customer.getPassword())) {
             System.out.println("\n====================================================");
-<<<<<<< HEAD
             System.out.println("||             Hallo Customer, MITA               ||");
-=======
-            System.out.println("||             Hallo Customer, Mita               ||");
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
             System.out.println("||       Tekan Enter untuk melanjutkan...         ||");
             System.out.println("====================================================");
             tekanEnterUntukLanjut();

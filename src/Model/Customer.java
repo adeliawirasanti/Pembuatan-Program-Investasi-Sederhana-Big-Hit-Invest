@@ -86,8 +86,5 @@ public class Customer extends User {
         }
         return null;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
+

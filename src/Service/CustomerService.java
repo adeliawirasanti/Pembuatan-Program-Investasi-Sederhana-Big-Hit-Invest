@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class CustomerService {
 
-    public static void menuCustomer(Scanner scanner, Customer customer, List<Saham> daftarSaham, List<SuratBerhargaNegara> daftarSBN) {
+    public static void menuCustomer(Scanner scanner, Customer customer) {
         boolean isRunning = true;
         while (isRunning) {
             clearScreen();
@@ -18,16 +18,16 @@ public class CustomerService {
 
             switch (pilihan) {
                 case "1":
-                    beliSaham(scanner, customer, daftarSaham);
+                    beliSaham(scanner, customer);
                     break;
                 case "2":
                     jualSaham(scanner, customer);
                     break;
                 case "3":
-                    beliSBN(scanner, customer, daftarSBN);
+                    beliSBN(scanner, customer);
                     break;
                 case "4":
-                    simulasiSBN(scanner, customer);
+                    simulasiSBN(scanner);
                     break;
                 case "5":
                     lihatPortofolio(scanner, customer);
@@ -56,12 +56,13 @@ public class CustomerService {
         System.out.println("====================================================");
     }
 
-    private static void beliSaham(Scanner scanner, Customer customer, List<Saham> daftarSaham) {
+    private static void beliSaham(Scanner scanner, Customer customer) {
         clearScreen();
         System.out.println("====================================================");
         System.out.println("||                  BELI SAHAM                    ||");
         System.out.println("====================================================");
 
+        List<Saham> daftarSaham = InvestasiService.getDaftarSaham();
         System.out.println("Daftar Saham yang Tersedia:");
         for (Saham saham : daftarSaham) {
             System.out.println(saham.getKode() + " - " + saham.getNamaPerusahaan() + " - Rp " + saham.getHarga());
@@ -117,12 +118,13 @@ public class CustomerService {
         tekanEnterUntukLanjut(scanner);
     }
 
-    private static void beliSBN(Scanner scanner, Customer customer, List<SuratBerhargaNegara> daftarSBN) {
+    private static void beliSBN(Scanner scanner, Customer customer) {
         clearScreen();
         System.out.println("====================================================");
         System.out.println("||                  BELI SBN                      ||");
         System.out.println("====================================================");
 
+        List<SuratBerhargaNegara> daftarSBN = InvestasiService.getDaftarSBN();
         System.out.println("Daftar SBN yang Tersedia:");
         for (SuratBerhargaNegara sbn : daftarSBN) {
             System.out.println(sbn.getNama() + " - Bunga: " + sbn.getBunga() + "%");
@@ -143,6 +145,7 @@ public class CustomerService {
             System.out.print("Masukkan nominal yang akan dibeli: ");
             double nominal = Double.parseDouble(scanner.nextLine());
             customer.beliSBN(sbnTerpilih, nominal);
+            sbnTerpilih.kurangiKuota(nominal);
             System.out.println("Pembelian SBN berhasil!");
         } else {
             System.out.println("SBN tidak ditemukan!");
@@ -154,7 +157,7 @@ public class CustomerService {
     private static void lihatPortofolio(Scanner scanner, Customer customer) {
         clearScreen();
         System.out.println("====================================================");
-        System.out.println("||                   PORTOFOLIO                 ||");
+        System.out.println("||                   PORTOFOLIO                  ||");
         System.out.println("====================================================");
 
         System.out.println("Saham yang Anda Miliki:");
@@ -166,13 +169,41 @@ public class CustomerService {
         tekanEnterUntukLanjut(scanner);
     }
 
-    private static void simulasiSBN(Scanner scanner, Customer customer) {
+    private static void simulasiSBN(Scanner scanner) {
         clearScreen();
         System.out.println("====================================================");
         System.out.println("||                   SIMULASI SBN                 ||");
         System.out.println("====================================================");
 
-        System.out.println("Fitur simulasi SBN akan ditambahkan nanti.");
+        List<SuratBerhargaNegara> daftarSBN = InvestasiService.getDaftarSBN();
+        System.out.println("Daftar SBN yang Tersedia:");
+        for (SuratBerhargaNegara sbn : daftarSBN) {
+            System.out.println(sbn.getNama() + " - Bunga: " + sbn.getBunga() + "%");
+        }
+
+        System.out.print("Pilih nama SBN untuk simulasi: ");
+        String namaSBN = scanner.nextLine();
+
+        SuratBerhargaNegara sbnTerpilih = null;
+        for (SuratBerhargaNegara sbn : daftarSBN) {
+            if (sbn.getNama().equalsIgnoreCase(namaSBN)) {
+                sbnTerpilih = sbn;
+                break;
+            }
+        }
+
+        if (sbnTerpilih != null) {
+            System.out.print("Masukkan nominal investasi (Rp): ");
+            double nominal = Double.parseDouble(scanner.nextLine());
+
+            double bungaTahunan = sbnTerpilih.getBunga();
+            double kuponPerBulan = (bungaTahunan / 100.0 / 12) * 0.9 * nominal;
+
+            System.out.println("Estimasi kupon yang Anda terima setiap bulan: Rp " + String.format("%.2f", kuponPerBulan));
+        } else {
+            System.out.println("SBN tidak ditemukan!");
+        }
+
         tekanEnterUntukLanjut(scanner);
     }
 
@@ -182,7 +213,8 @@ public class CustomerService {
     }
 
     private static void clearScreen() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
+        for (int i = 0; i < 50; i++) {
+            System.out.println();
+        }
     }
 }

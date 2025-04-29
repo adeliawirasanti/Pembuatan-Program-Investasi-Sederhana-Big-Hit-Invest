@@ -1,15 +1,14 @@
 package Service;
 
 import Model.Admin;
+import Model.Saham;
+import Model.SuratBerhargaNegara;
 import java.util.Scanner;
+import Service.InvestasiService;
 
 public class AdminService {
 
-<<<<<<< HEAD
     public static void menuAdmin(Scanner scanner, Admin admin) {
-=======
-    public static void menuAdmin(Scanner scanner) {
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
         boolean isRunning = true;
 
         while (isRunning) {
@@ -39,11 +38,7 @@ public class AdminService {
 
     private static void tampilkanMenuAdmin() {
         System.out.println("====================================================");
-<<<<<<< HEAD
         System.out.println("||                   MENU ADMIN                   ||");
-=======
-        System.out.println("||                   MENU ADMIN                    ||");
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
         System.out.println("====================================================");
         System.out.println("||  Pilih menu di bawah ini                        ||");
         System.out.println("||                                                 ||");
@@ -99,13 +94,11 @@ public class AdminService {
         String namaPerusahaan = scanner.nextLine();
         System.out.print("Masukkan harga saham: ");
         double harga = scanner.nextDouble();
-<<<<<<< HEAD
-        scanner.nextLine();  // consume newline
-=======
-        scanner.nextLine();  // consume the newline
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
+        scanner.nextLine(); // consume newline
 
-        // Simulasi penambahan saham ke sistem
+        Saham sahamBaru = new Saham(kode, namaPerusahaan, harga);
+        InvestasiService.tambahSaham(sahamBaru); // Tambahkan ke sistem
+
         System.out.println("Saham " + namaPerusahaan + " (" + kode + ") berhasil ditambahkan dengan harga Rp " + harga);
         tekanEnterUntukLanjut();
     }
@@ -113,16 +106,17 @@ public class AdminService {
     private static void ubahHargaSaham(Scanner scanner) {
         System.out.print("Masukkan kode saham yang akan diubah harganya: ");
         String kode = scanner.nextLine();
-        System.out.print("Masukkan harga baru saham " + kode + ": ");
-        double hargaBaru = scanner.nextDouble();
-<<<<<<< HEAD
-        scanner.nextLine();  // consume newline
-=======
-        scanner.nextLine();  // consume the newline
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
+        Saham saham = InvestasiService.cariSahamByKode(kode);
 
-        // Simulasi perubahan harga saham
-        System.out.println("Harga saham " + kode + " berhasil diubah menjadi Rp " + hargaBaru);
+        if (saham != null) {
+            System.out.print("Masukkan harga baru untuk saham " + kode + ": ");
+            double hargaBaru = scanner.nextDouble();
+            scanner.nextLine(); // consume newline
+            saham.setHarga(hargaBaru); // Update harga
+            System.out.println("Harga saham " + kode + " berhasil diubah menjadi Rp " + hargaBaru);
+        } else {
+            System.out.println("Saham tidak ditemukan.");
+        }
         tekanEnterUntukLanjut();
     }
 
@@ -164,26 +158,20 @@ public class AdminService {
     private static void tambahSBN(Scanner scanner) {
         System.out.print("Masukkan nama SBN: ");
         String nama = scanner.nextLine();
-        System.out.print("Masukkan bunga SBN: ");
+        System.out.print("Masukkan bunga SBN (%): ");
         double bunga = scanner.nextDouble();
         System.out.print("Masukkan jangka waktu SBN (bulan): ");
         int jangkaWaktu = scanner.nextInt();
-<<<<<<< HEAD
         scanner.nextLine(); // consume newline
-=======
-        scanner.nextLine();  // consume the newline
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
-        System.out.print("Masukkan tanggal jatuh tempo SBN: ");
+        System.out.print("Masukkan tanggal jatuh tempo SBN (yyyy-MM-dd): ");
         String jatuhTempo = scanner.nextLine();
         System.out.print("Masukkan kuota nasional SBN: ");
         double kuota = scanner.nextDouble();
-<<<<<<< HEAD
         scanner.nextLine(); // consume newline
-=======
-        scanner.nextLine();  // consume the newline
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
 
-        // Simulasi penambahan SBN ke sistem
+        SuratBerhargaNegara sbnBaru = new SuratBerhargaNegara(nama, bunga, jangkaWaktu, jatuhTempo, kuota);
+        InvestasiService.tambahSBN(sbnBaru); // Tambahkan ke sistem
+
         System.out.println("SBN " + nama + " berhasil ditambahkan dengan bunga " + bunga + "% dan kuota Rp " + kuota);
         tekanEnterUntukLanjut();
     }
@@ -194,17 +182,9 @@ public class AdminService {
     }
 
     private static void clearScreen() {
-<<<<<<< HEAD
         for (int i = 0; i < 50; i++) {
             System.out.println();
         }
-=======
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
-    }
-
-    public static void menuAdmin(Scanner scanner, Admin admin) {
-        menuAdmin(scanner);
->>>>>>> efac99d202b89c449ed71af8a608e4e76a54cf1f
     }
 }
+
