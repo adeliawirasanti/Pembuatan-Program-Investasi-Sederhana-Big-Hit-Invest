@@ -16,7 +16,7 @@ BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) be
 
 **UML**
 -------------------------------------------------------
-![UML PBO Tugas 1 drawio](https://github.com/user-attachments/assets/036fdf21-3386-4e54-b4f0-a0bc6a26f8d9)
+![UML PBO Tugas 1](https://github.com/user-attachments/assets/09d64397-b8cf-43a8-b893-3178cc764f86)
 
 **FITUR UTAMA**
 ------------------------------------------------------
