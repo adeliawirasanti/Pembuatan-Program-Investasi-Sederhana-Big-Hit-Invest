@@ -206,7 +206,7 @@ public class CustomerService {
 
         tekanEnterUntukLanjut(scanner);
     }
-
+    
     // Simulasi estimasi pendapatan dari investasi SBN
     private static void simulasiSBN(Scanner scanner) {
         clearScreen();
