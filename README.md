@@ -23,7 +23,7 @@ BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) be
 - Login untuk Admin dan Customer: Admin dan Customer dapat login menggunakan username dan password.
 - Investasi Saham: Customer dapat membeli dan menjual saham.
 - Investasi SBN: Customer dapat membeli dan menjual Surat Berharga Negara (SBN).
-- Cek Saldo: Pengguna dapat memeriksa saldo akun mereka.
+- Cek Portofolio: Pengguna dapat memeriksa portofolio Saham dan SBN akun mereka.
 - Validasi Input: Program memvalidasi semua input dari pengguna untuk memastikan data yang dimasukkan valid.
 - Menu Interaktif: Menggunakan menu untuk memudahkan navigasi.
 
@@ -194,4 +194,4 @@ Pada menu portofolio, akan ditampilkan Saham dan SBN yang dimiliki oleh customer
 
 ![Screenshot 2025-04-29 114746](https://github.com/user-attachments/assets/84d7d1e1-d06b-42dc-916f-0cbfd118dbed)
 
-Pada menu portofolio, akan ditampilkan Saham dan SBN yang dimiliki oleh customer.
+Saat user memutuskan untuk keluar dari program, mereka dapat memilih opsi logout terlebih dahulu, kemudian memilih untuk keluar dari program. Setelah itu, pesan seperti yang ditampilkan pada gambar di atas akan muncul.
