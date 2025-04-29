@@ -1,4 +1,4 @@
-![Screenshot 2025-04-29 224031](https://github.com/user-attachments/assets/69d43e2e-05d9-4056-98f6-2b61c7441bb4)**PBO - TUGAS 1**
+**PBO - TUGAS 1**
 ======================================================
 
 **PEMBUATAN PROGRAM INVESTASI SEDERHANA Bighit Invest**
