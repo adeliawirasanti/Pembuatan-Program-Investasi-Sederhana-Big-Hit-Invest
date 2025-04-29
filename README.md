@@ -52,7 +52,14 @@ Folder ini berisi kelas InputValidator.java yang digunakan untuk memvalidasi inp
 
 **BAGAIMANA PROGRAM DIJALANKAN**
 --------------------------------------------
+Program ini dijalankan dengan menerapkan konsep Object Oriented Programming (OOP), yaitu:
 
+1. Penggunaan Class dan Object
+2. Flow Control
+3. ArrayList
+4. Inheritance
+5. Encapsulation
+6. Static Usage
 
 **PENGGUNAAN PROGRAM**
 -----------------------------------------
