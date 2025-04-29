@@ -44,10 +44,11 @@ public class Main {
                     }
                     break;
                 case "0": // Keluar dari program
-                    System.out.println("=====================================================================");
-                    System.out.println("||            TERIMA KASIH TELAH MENGGUNAKAN PROGRAM INI!           ||");
-                    System.out.println("||                            SEEE UUUU!! ❤️                       ||");
-                    System.out.println("=====================================================================");
+                        System.out.println("=====================================================================");
+                        System.out.println("||" + centerText("TERIMA KASIH TELAH MENGGUNAKAN PROGRAM INI!") + "||");
+                        System.out.println("||" + centerText("SEEE UUUU!!") + "||");
+                        System.out.println("=====================================================================");
+
                     isRunning = false;
                     break;
                 default:
