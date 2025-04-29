@@ -45,8 +45,8 @@ public class Main {
                     break;
                 case "0": // Keluar dari program
                     System.out.println("=====================================================================");
-                    System.out.println("||           Terima kasih telah menggunakan program ini!           ||");
-                    System.out.println("||                    Sampai jumpa di lain waktu 😊                ||");
+                    System.out.println("||            TERIMA KASIH TELAH MENGGUNAKAN PROGRAM INI!           ||");
+                    System.out.println("||                            SEEE UUUU!! ❤️                       ||");
                     System.out.println("=====================================================================");
                     isRunning = false;
                     break;
