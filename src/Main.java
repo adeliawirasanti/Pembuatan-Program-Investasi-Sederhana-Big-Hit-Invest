@@ -9,11 +9,13 @@ import java.util.Scanner;
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
+
+    // Objek admin dan customer dengan username & password default
     private static Admin admin = new Admin("ADEL", "adel123");
     private static Customer customer = new Customer("MITA", "mita123");
 
     public static void main(String[] args) {
-        // Inisialisasi data dummy saham dan SBN
+        // Inisialisasi data dummy saham
         InvestasiService.tambahSaham(new Saham("BBCA", "BCA", 10000));
         InvestasiService.tambahSaham(new Saham("TLKM", "Telkom Indonesia", 4000));
 
@@ -22,26 +24,30 @@ public class Main {
 
         boolean isRunning = true;
 
+        // Perulangan utama aplikasi
         while (isRunning) {
-            clearScreen();
+            clearScreen(); 
             tampilkanMenuAwal();
 
             System.out.print("Masukan pilihan: ");
             String pilihan = scanner.nextLine();
 
             switch (pilihan) {
-                case "1":
+                case "1": // Login sebagai Admin
                     if (loginAdmin()) {
-                        AdminService.menuAdmin(scanner, admin);
+                        AdminService.menuAdmin(scanner, admin); // Arahkan ke menu admin
                     }
                     break;
-                case "2":
+                case "2": // Login sebagai Customer
                     if (loginCustomer()) {
-                        CustomerService.menuCustomer(scanner, customer);
+                        CustomerService.menuCustomer(scanner, customer); // Arahkan ke menu customer
                     }
                     break;
-                case "0":
-                    System.out.println("Keluar dari program...");
+                case "0": // Keluar dari program
+                    System.out.println("=====================================================================");
+                    System.out.println("||           Terima kasih telah menggunakan program ini!           ||");
+                    System.out.println("||                    Sampai jumpa di lain waktu 😊                ||");
+                    System.out.println("=====================================================================");
                     isRunning = false;
                     break;
                 default:
@@ -50,9 +56,10 @@ public class Main {
             }
         }
 
-        scanner.close();
+        scanner.close(); 
     }
 
+    // Menampilkan tampilan menu awal
     private static void tampilkanMenuAwal() {
         System.out.println("=====================================================================");
         System.out.println("||                        W E L C O M E  T O                       ||");
@@ -62,10 +69,11 @@ public class Main {
         System.out.println("||                                                                 ||");
         System.out.println("|| [1] Admin                                                       ||");
         System.out.println("|| [2] Customer                                                    ||");
-        System.out.println("|| [3] Logout                                                      ||");
+        System.out.println("|| [0] Keluar Program                                              ||");
         System.out.println("=====================================================================");
     }
 
+    // Proses login sebagai Admin
     private static boolean loginAdmin() {
         clearScreen();
         System.out.println("=====================================================================");
@@ -84,7 +92,7 @@ public class Main {
             System.out.println("||" + centerText("SELAMAT DATANG, " + admin.getUsername()) + "||");
             System.out.println("=====================================================================");
             tekanEnterUntukLanjut();
-            return true;  // Lanjut ke menu Admin
+            return true;
         } else {
             System.out.println("=====================================================================");
             System.out.println("||                    L O G I N  G A G A L !                       ||");
@@ -95,6 +103,7 @@ public class Main {
         }
     }
 
+    // Proses login sebagai Customer
     private static boolean loginCustomer() {
         clearScreen();
         System.out.println("=====================================================================");
@@ -113,7 +122,7 @@ public class Main {
             System.out.println("||" + centerText("SELAMAT DATANG, " + customer.getUsername()) + "||");
             System.out.println("=====================================================================");
             tekanEnterUntukLanjut();
-            return true;  // Lanjut ke menu Customer
+            return true;
         } else {
             System.out.println("=====================================================================");
             System.out.println("||                    L O G I N  G A G A L !                       ||");
@@ -124,19 +133,22 @@ public class Main {
         }
     }
 
+    // Fungsi untuk menunggu pengguna menekan Enter
     private static void tekanEnterUntukLanjut() {
         System.out.print("Tekan Enter untuk melanjutkan...");
         scanner.nextLine();
     }
 
+    // Fungsi untuk membersihkan layar console 
     private static void clearScreen() {
         for (int i = 0; i < 50; i++) {
             System.out.println();
         }
     }
 
+    // Fungsi untuk meratakan teks di tengah garis dekoratif
     private static String centerText(String text) {
-        int totalWidth = 69 - 4; // 69 total - 2 for || and 2 for space padding
+        int totalWidth = 69 - 4; // 69 karakter total dikurangi garis pinggir
         int padding = (totalWidth - text.length()) / 2;
         int extra = (totalWidth - text.length()) % 2;
         return " ".repeat(padding) + text + " ".repeat(padding + extra);
