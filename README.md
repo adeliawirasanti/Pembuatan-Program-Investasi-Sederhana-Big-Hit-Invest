@@ -67,9 +67,9 @@ Folder ini berisi kelas InputValidator.java yang digunakan untuk memvalidasi inp
 Menu Admin Saham
 ![Screenshot 2025-04-29 105221](https://github.com/user-attachments/assets/4d4961eb-5fe9-408d-871f-5625afe3ac60)
 
-![Uploading Screenshot 2025-04-29 105243.jpg…]()
+![Screenshot 2025-04-29 105243](https://github.com/user-attachments/assets/baf644ee-8a04-43b9-ab73-c42c5bd5bb56)
 
-![Uploading Screenshot 2025-04-29 105307.jpg…]()
+![Screenshot 2025-04-29 105307](https://github.com/user-attachments/assets/2704282d-af6b-488e-a2e7-0c156c682484)
 
 ![Screenshot 2025-04-29 105444](https://github.com/user-attachments/assets/2093f2fc-7383-4c34-8a17-47a9f29a5067)
 
@@ -104,9 +104,11 @@ Beli Saham
 ![Screenshot 2025-04-29 113618](https://github.com/user-attachments/assets/142092a1-3887-410b-b0ed-5736e6df99f7)
 
 Jual Saham
+
 ![Screenshot 2025-04-29 113856](https://github.com/user-attachments/assets/68d7073d-c938-4998-ac30-28207661c8ca)
 
 Beli SBN
+
 ![Screenshot 2025-04-29 111907](https://github.com/user-attachments/assets/e1d56fbb-156d-4d93-9c48-ac028ba9a0af)
 
 Simulasi SBN
@@ -116,11 +118,13 @@ Simulasi SBN
 ![Screenshot 2025-04-29 113051](https://github.com/user-attachments/assets/4d2fcdbf-efbf-4ae9-8e9e-0e4d7d84acf6)
 
 Portofolio
+
 ![Screenshot 2025-04-29 113123](https://github.com/user-attachments/assets/cb2bf983-bac3-4a1d-b069-d78b84783034)
 
 ![Screenshot 2025-04-29 113315](https://github.com/user-attachments/assets/e5e37ec2-9f91-4b5c-a81a-018a7b8ed541)
 
 Logout
+
 ![Screenshot 2025-04-29 113957](https://github.com/user-attachments/assets/33161733-132e-4a66-9646-7f6bfa9b9622)
 
 ![Screenshot 2025-04-29 114025](https://github.com/user-attachments/assets/76747ffb-ab60-441c-9273-4cad4a589f19)
