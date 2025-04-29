@@ -97,7 +97,7 @@ Program ini dijalankan dengan menerapkan konsep Object Oriented Programming (OOP
 -----------------------------------------
 Bagian berikut menunjukkan langkah-langkah dari penggunaan program, disertai gambar hasil eksekusi serta penjelasan di bawahnya.
 
-**LOG IN ADMIN & CUSTOMER**
+**Log In Admin & Customer**
 -----------------------------------------
 ![Screenshot 2025-04-29 103121](https://github.com/user-attachments/assets/21ee4366-d196-41a0-a841-cc7a35c553fc)
 
