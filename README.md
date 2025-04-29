@@ -1,4 +1,4 @@
-**PBO - TUGAS 1**
+![Screenshot 2025-04-29 224031](https://github.com/user-attachments/assets/69d43e2e-05d9-4056-98f6-2b61c7441bb4)**PBO - TUGAS 1**
 ======================================================
 
 **PEMBUATAN PROGRAM INVESTASI SEDERHANA Bighit Invest**
@@ -99,129 +99,132 @@ Bagian berikut menunjukkan langkah-langkah dari penggunaan program, disertai gam
 
 **Log In Admin & Customer**
 -----------------------------------------
-![Screenshot 2025-04-29 103121](https://github.com/user-attachments/assets/21ee4366-d196-41a0-a841-cc7a35c553fc)
 
-![Screenshot 2025-04-29 103225](https://github.com/user-attachments/assets/24f443b6-91d8-4236-ab8a-ad0c19f35a36)
+![Screenshot 2025-04-29 223705](https://github.com/user-attachments/assets/aec5bf2e-2e8c-4445-bea2-c316ab1e0990)
 
-![Screenshot 2025-04-29 103327](https://github.com/user-attachments/assets/e553aeeb-84b4-4d5b-95bd-21d1958b1b24)
+![Screenshot 2025-04-29 223912](https://github.com/user-attachments/assets/fa877e3d-9d57-4114-92b0-e91a76a7692a)
 
-![Screenshot 2025-04-29 111252](https://github.com/user-attachments/assets/6a595fe0-f87a-427b-855f-2277664b9378)
+![Screenshot 2025-04-29 224007](https://github.com/user-attachments/assets/e15c1646-e67b-4ebc-b95f-3b68b2335b5b)
 
-![Screenshot 2025-04-29 111324](https://github.com/user-attachments/assets/0f31d048-75c6-4fff-af29-7bb94137abb6)
+![Screenshot 2025-04-29 225150](https://github.com/user-attachments/assets/18243c1d-1396-4881-a4b0-29de6354402d)
 
-![Screenshot 2025-04-29 111351](https://github.com/user-attachments/assets/6ca44adc-8ff9-4cff-a452-1bcd65f688c9)
+![Screenshot 2025-04-29 225228](https://github.com/user-attachments/assets/ef4109cb-bcd5-42ad-a180-517f1b2a56fd)
 
-![Screenshot 2025-04-29 124344](https://github.com/user-attachments/assets/9e215a33-2ca7-4bd6-9a45-0478a911edb1)
+![Screenshot 2025-04-29 235143](https://github.com/user-attachments/assets/7854a3f0-7aaf-40b7-9596-c2e2c8a57671)
 
 Setelah memilih opsi login, user akan diminta memasukkan username dan password sesuai dengan peran yang dipilih. Jika data yang dimasukkan benar, sistem akan menampilkan output seperti pada gambar di atas. Namun, apabila terjadi kesalahan pada input, akan muncul pesan login gagal.
 
 **Menu Admin**
 --------------------------------------
-![Screenshot 2025-04-29 105022](https://github.com/user-attachments/assets/6e0695bf-1a22-4ca6-8f2a-cbea230a7697)
+
+![Screenshot 2025-04-29 224031](https://github.com/user-attachments/assets/8970a1c7-8e33-4fe9-b780-d5c2a39d5ae2)
 
 Di menu admin ini, tersedia dua pilihan utama yang bisa dipilih, yaitu Saham dan Surat Berharga Negara (SBN).
 
 **Menu Admin Tambah Saham**
 ----------------------------------------
 
-![Screenshot 2025-04-29 105221](https://github.com/user-attachments/assets/4d4961eb-5fe9-408d-871f-5625afe3ac60)
+![Screenshot 2025-04-29 224055](https://github.com/user-attachments/assets/570c0128-e202-4661-a57b-104e29d9f9aa)
 
-![Screenshot 2025-04-29 105243](https://github.com/user-attachments/assets/baf644ee-8a04-43b9-ab73-c42c5bd5bb56)
+![Screenshot 2025-04-29 224201](https://github.com/user-attachments/assets/739c29ad-4afa-4d21-9917-652b242a7b49)
 
-![Screenshot 2025-04-29 105307](https://github.com/user-attachments/assets/2704282d-af6b-488e-a2e7-0c156c682484)
+![Screenshot 2025-04-29 224233](https://github.com/user-attachments/assets/ec601d32-b25b-4492-993e-d0b7146a1447)
+![Screenshot 2025-04-29 224601](https://github.com/user-attachments/assets/04528316-6e45-459c-adc1-af483ac20700)
 
-![Screenshot 2025-04-29 105444](https://github.com/user-attachments/assets/2093f2fc-7383-4c34-8a17-47a9f29a5067)
+![Screenshot 2025-04-29 231039](https://github.com/user-attachments/assets/32c51217-6fcb-4808-8e84-789c8a5ae79d)
 
 Jika admin memilih opsi menu saham, maka akan muncul pilihan untuk menambah saham atau mengubah harga saham. Jika memilih untuk menambah saham, admin akan diminta untuk memasukkan kode saham, nama perusahaan, dan harga saham yang akan ditambahkan.
 
 **Menu Admin Ubah Harga Saham**
 ----------------------------------------
 
-![Screenshot 2025-04-29 105514](https://github.com/user-attachments/assets/6eadb91b-1ff2-4e95-aa0b-a809f1fe2cdb)
+![Screenshot 2025-04-29 224954](https://github.com/user-attachments/assets/ef5caca6-5721-4c0a-bc49-3764ade25a15)
 
-![Screenshot 2025-04-29 105837](https://github.com/user-attachments/assets/0e1cddc2-e7a9-4b5b-ae8b-144a7c0f1a55)
+![Screenshot 2025-04-29 231140](https://github.com/user-attachments/assets/e59493de-3c01-4acb-8e28-076f7dae4c7f)
 
 Pada menu ini, pengguna dapat memperbarui harga saham dengan cara memasukkan kode saham yang ingin diubah, diikuti dengan harga baru yang diinginkan.
 
 **Menu Admin SBN**
 ----------------------------------------
 
-![Screenshot 2025-04-29 110013](https://github.com/user-attachments/assets/d0121f3a-d438-43af-83c8-01e3d96e607d)
+![Screenshot 2025-04-29 231301](https://github.com/user-attachments/assets/869c32b0-9ff2-47d0-8c5e-3e991a1667b3)
 
-![Screenshot 2025-04-29 110039](https://github.com/user-attachments/assets/4814b722-9617-4d87-b90a-553f155dacd1)
+![Screenshot 2025-04-29 231332](https://github.com/user-attachments/assets/b3859e4a-ed07-4143-8af9-88d5ec00c3ea)
 
-![Screenshot 2025-04-29 111053](https://github.com/user-attachments/assets/269672f3-93e1-4563-8cf8-e9ebe7a8e519)
+![Screenshot 2025-04-29 231351](https://github.com/user-attachments/assets/77fbefa3-76d3-4e3d-a316-ec804ff5ac32)
 
-![Screenshot 2025-04-29 111204](https://github.com/user-attachments/assets/3e70e6d2-d7a8-493c-b3aa-c37a8bb97722)
+![Screenshot 2025-04-29 231411](https://github.com/user-attachments/assets/9887f088-1f17-4d83-9a69-ac72b43e3567)
+
+![Screenshot 2025-04-29 231601](https://github.com/user-attachments/assets/df8e865d-aba8-48fd-88a0-c267bd3dd94d)
 
 Apabila admin memilih opsi Surat Berharga Negara (SBN), maka akan muncul pilihan untuk menambahkan SBN baru, yang meliputi pengisian informasi seperti nama, bunga, jangka waktu, jatuh tempo, dan kuota nasional, sesuai dengan gambar di atas.
 
 **Menu Customer**
 ----------------------------------------
 
-![Screenshot 2025-04-29 111415](https://github.com/user-attachments/assets/00d568dc-e0b3-40ae-9af5-aba18a541971)
+![Screenshot 2025-04-29 225254](https://github.com/user-attachments/assets/981124b2-7a25-4e69-9c73-3f7ebbf3675e)
 
 Di tahap menu customer, pengguna akan diberikan beberapa pilihan mengenai tindakan yang ingin dilakukan sebagai pelanggan.
 
 **Menu Customer Beli Saham**
 ----------------------------------------
 
-![Screenshot 2025-04-29 122123](https://github.com/user-attachments/assets/6ab54e6f-d882-4d17-ad7e-02ed1e7bb1c2)
+![Screenshot 2025-04-29 231752](https://github.com/user-attachments/assets/154e847e-4557-477f-9875-ffe9e5534deb)
 
-![Screenshot 2025-04-29 122057](https://github.com/user-attachments/assets/dd3907e4-8e93-45a2-9946-abaeac7564f1)
+![Screenshot 2025-04-29 231825](https://github.com/user-attachments/assets/630fbc78-dd7c-44f4-b6b5-f6e6cb39de12)
 
-![Screenshot 2025-04-29 113618](https://github.com/user-attachments/assets/142092a1-3887-410b-b0ed-5736e6df99f7)
+![Screenshot 2025-04-29 231914](https://github.com/user-attachments/assets/b7090781-59bf-4007-abef-fdc293ef3914)
 
 Ketika customer ingin membeli saham, sistem akan menampilkan daftar saham yang tersedia. Untuk melakukan pembelian, customer cukup memasukkan kode saham dan jumlah lembar yang ingin dibeli.
 
 **Menu Customer Jual Saham**
 ----------------------------------------
 
-![Screenshot 2025-04-29 122231](https://github.com/user-attachments/assets/bbc895bf-dc46-40d3-80f1-eace8d127db0)
+![Screenshot 2025-04-29 231934](https://github.com/user-attachments/assets/82c560d3-ea44-4a1e-969e-f804b038aa38)
 
-![Screenshot 2025-04-29 122643](https://github.com/user-attachments/assets/3da79b6b-b67b-4318-bb66-b07e90f22a92)
+![Screenshot 2025-04-29 231957](https://github.com/user-attachments/assets/9a6dfd30-90ef-41e8-9d8d-a3985c84b6e4)
 
-![Screenshot 2025-04-29 113856](https://github.com/user-attachments/assets/68d7073d-c938-4998-ac30-28207661c8ca)
+![Screenshot 2025-04-29 232048](https://github.com/user-attachments/assets/c551182c-0698-4ba8-a495-a6f40e187286)
 
 Jika customer berencana untuk menjual saham, sistem akan menampilkan terlebih dahulu daftar saham yang dimiliki. Setelah itu, customer perlu memasukkan kode saham dan jumlah lembar yang ingin dijual.
 
 **Menu Customer Beli SBN**
 ----------------------------------------
 
-![Screenshot 2025-04-29 111843](https://github.com/user-attachments/assets/8a9dff2d-844a-4186-861a-d544d27c7384)
+![Screenshot 2025-04-29 232110](https://github.com/user-attachments/assets/3e98125e-c650-4820-9f53-c70b521dac12)
 
-![Screenshot 2025-04-29 111907](https://github.com/user-attachments/assets/e1d56fbb-156d-4d93-9c48-ac028ba9a0af)
+![Screenshot 2025-04-29 232142](https://github.com/user-attachments/assets/10e18d7c-da9d-4481-9b83-8fd3acabe13b)
+
+![Screenshot 2025-04-29 232224](https://github.com/user-attachments/assets/23781dca-9854-490e-94aa-c9972c0844cc)
 
 Di bagian pembelian SBN, customer juga dapat melihat daftar SBN yang tersedia untuk dibeli.
 
 **Menu Customer Simulasi SBN**
 ----------------------------------------
-![Screenshot 2025-04-29 112054](https://github.com/user-attachments/assets/79476134-45cc-4402-aebe-31cece9bf8cf)
+![Screenshot 2025-04-29 232243](https://github.com/user-attachments/assets/cd0100d4-ce7d-43ae-8158-e08cd190ea3d)
 
-![Screenshot 2025-04-29 112150](https://github.com/user-attachments/assets/c3f11999-333a-4de9-b7c1-2d303dc1cdb9)
+![Screenshot 2025-04-29 232306](https://github.com/user-attachments/assets/21fe7bd9-a2f8-4538-aa37-f0de8b0a64b4)
 
-![Screenshot 2025-04-29 113051](https://github.com/user-attachments/assets/3e4b12f6-d40c-4f06-a114-449ced5ce7bb)
+![Screenshot 2025-04-29 232341](https://github.com/user-attachments/assets/0ded354c-d999-4722-bc0b-125c9fc35f96)
 
 Customer dapat melihat simulasi SBN dengan memilih nama SBN dari daftar yang tersedia, kemudian memasukkan nominal investasi. Sistem akan menampilkan estimasi kupon yang akan diterima setiap bulan, seperti yang terlihat pada gambar di bawah.
 
 **Menu Customer Portofolio**
 ----------------------------------------
 
-![Screenshot 2025-04-29 113123](https://github.com/user-attachments/assets/b825bfee-1e4e-479d-935f-c3150cf3ea87)
+![Screenshot 2025-04-29 232403](https://github.com/user-attachments/assets/06bff143-60d9-496e-8976-2dad0954dac6)
 
-![Screenshot 2025-04-29 113123](https://github.com/user-attachments/assets/cb2bf983-bac3-4a1d-b069-d78b84783034)
-
-![Screenshot 2025-04-29 113315](https://github.com/user-attachments/assets/e5e37ec2-9f91-4b5c-a81a-018a7b8ed541)
+![Screenshot 2025-04-29 232422](https://github.com/user-attachments/assets/672134e5-1c95-498e-890a-11c8eb2237ca)
 
 Pada menu portofolio, akan ditampilkan Saham dan SBN yang dimiliki oleh customer.
 
 **Menu Logout**
 ----------------------------------------
 
-![Screenshot 2025-04-29 111230](https://github.com/user-attachments/assets/06261f02-472d-4ae9-9cbe-d7a325ec8def)
+![Screenshot 2025-04-29 232440](https://github.com/user-attachments/assets/9da673f2-6b40-484d-aaeb-feb6cef8ef31)
 
-![Screenshot 2025-04-29 114025](https://github.com/user-attachments/assets/76747ffb-ab60-441c-9273-4cad4a589f19)
+![Screenshot 2025-04-29 232500](https://github.com/user-attachments/assets/937200ae-f387-4db5-be25-4ddcf186f9e3)
 
-![Screenshot 2025-04-29 114746](https://github.com/user-attachments/assets/84d7d1e1-d06b-42dc-916f-0cbfd118dbed)
+![Screenshot 2025-04-29 234940](https://github.com/user-attachments/assets/b98be1a6-f24b-46fc-9718-7c1e74dbe7e2)
 
 Saat user memutuskan untuk keluar dari program, mereka dapat memilih opsi logout terlebih dahulu, kemudian memilih untuk keluar dari program. Setelah itu, pesan seperti yang ditampilkan pada gambar di atas akan muncul.
