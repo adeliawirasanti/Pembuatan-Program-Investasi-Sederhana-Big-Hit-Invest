@@ -16,11 +16,11 @@ public class Main {
 
     public static void main(String[] args) {
         // Inisialisasi data dummy saham
-        InvestasiService.tambahSaham(new Saham("BBCA", "BCA", 10000));
-        InvestasiService.tambahSaham(new Saham("TLKM", "Telkom Indonesia", 4000));
+        InvestasiService.tambahSaham(new Saham("APP", "Apple", 10000));
+        InvestasiService.tambahSaham(new Saham("SAMS", "Samsung", 8000));
 
-        InvestasiService.tambahSBN(new SuratBerhargaNegara("ORI022", 6.1, 36, "2027-01-15", 500000000));
-        InvestasiService.tambahSBN(new SuratBerhargaNegara("SR018", 5.5, 24, "2026-10-10", 30000000));
+        InvestasiService.tambahSBN(new SuratBerhargaNegara("ADL044", 5.3, 36, "2028-05-17", 400000000));
+        InvestasiService.tambahSBN(new SuratBerhargaNegara("MT017", 4.5, 24, "2027-09-10", 20000000));
 
         boolean isRunning = true;
 
