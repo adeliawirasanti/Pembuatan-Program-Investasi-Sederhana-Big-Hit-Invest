@@ -168,7 +168,13 @@ Di bagian pembelian SBN, customer juga dapat melihat daftar SBN yang tersedia un
 
 **Menu Customer Simulasi SBN**
 ----------------------------------------
+![Screenshot 2025-04-29 112054](https://github.com/user-attachments/assets/79476134-45cc-4402-aebe-31cece9bf8cf)
 
+![Screenshot 2025-04-29 112150](https://github.com/user-attachments/assets/c3f11999-333a-4de9-b7c1-2d303dc1cdb9)
+
+![Screenshot 2025-04-29 113051](https://github.com/user-attachments/assets/3e4b12f6-d40c-4f06-a114-449ced5ce7bb)
+
+Customer dapat melihat simulasi SBN dengan memilih nama SBN dari daftar yang tersedia, kemudian memasukkan nominal investasi. Sistem akan menampilkan estimasi kupon yang akan diterima setiap bulan, seperti yang terlihat pada gambar di bawah.
 
 **Menu Customer Portofolio**
 ----------------------------------------
