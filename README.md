@@ -17,7 +17,7 @@ Semua dijalankan dari terminal dengan antarmuka teks yang simpel namun interakti
 **IDENTITAS KAMI**
 ------------------------------------------------------
 1. Ni Made Adelia Wirasanti | NIM: 2405551010 | Kelas PBO B
-2. Nyoman Paramita Windari  | NIM: 2405551050 | Kelas PBO B
+2. Nyoman Pramita Windari  | NIM: 2405551050 | Kelas PBO B
 
 
 **UML**
@@ -155,7 +155,7 @@ Pada menu ini, pengguna dapat memperbarui harga saham dengan cara memasukkan kod
 
 ![Screenshot 2025-04-29 231411](https://github.com/user-attachments/assets/9887f088-1f17-4d83-9a69-ac72b43e3567)
 
-![Screenshot 2025-04-29 231601](https://github.com/user-attachments/assets/df8e865d-aba8-48fd-88a0-c267bd3dd94d)
+![Uploading Screenshot 2025-04-29 235854.jpg…]()
 
 Apabila admin memilih opsi Surat Berharga Negara (SBN), maka akan muncul pilihan untuk menambahkan SBN baru, yang meliputi pengisian informasi seperti nama, bunga, jangka waktu, jatuh tempo, dan kuota nasional, sesuai dengan gambar di atas.
 
@@ -225,6 +225,6 @@ Pada menu portofolio, akan ditampilkan Saham dan SBN yang dimiliki oleh customer
 
 ![Screenshot 2025-04-29 232500](https://github.com/user-attachments/assets/937200ae-f387-4db5-be25-4ddcf186f9e3)
 
-![Screenshot 2025-04-29 234940](https://github.com/user-attachments/assets/b98be1a6-f24b-46fc-9718-7c1e74dbe7e2)
+![Screenshot 2025-04-30 000339](https://github.com/user-attachments/assets/a27c91ac-a7f4-45a7-ae56-d8bffbb000c0)
 
 Saat user memutuskan untuk keluar dari program, mereka dapat memilih opsi logout terlebih dahulu, kemudian memilih untuk keluar dari program. Setelah itu, pesan seperti yang ditampilkan pada gambar di atas akan muncul.
