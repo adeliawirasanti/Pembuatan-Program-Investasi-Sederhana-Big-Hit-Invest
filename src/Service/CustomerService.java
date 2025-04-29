@@ -49,7 +49,7 @@ public class CustomerService {
         System.out.println("=====================================================================");
         System.out.println("||                      M E N U  C U S T O M E R                   ||");
         System.out.println("=====================================================================");
-        System.out.println("||                     Silahkan Pilih Di bawah ini                 ||");
+        System.out.println("||                    Silahkan Pilih Di Bawah Ini                  ||");
         System.out.println("||                                                                 ||");
         System.out.println("||  [1] Beli Saham                                                 ||");
         System.out.println("||  [2] Jual Saham                                                 ||");
