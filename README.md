@@ -3,15 +3,15 @@
 
 **PEMBUATAN PROGRAM INVESTASI SEDERHANA Bighit Invest**
 -------------------------------------------------------
-HIIII!!! Ini adalah proyek kecil kami, yaitu pembuatan program investasi sederhana Bernama Bighit Invest, yang digunakan untuk untuk memenuhi tugas I dari mata kuliah Pemrograman Berorientasi Objek (PBO) dengan implementasi struktur kode modular yang bersih dan terorganisir.
+HIIII!!! Ini adalah proyek kecil kami, yaitu pembuatan program investasi sederhana bernama Bighit Invest, yang digunakan untuk untuk memenuhi tugas I dari mata kuliah Pemrograman Berorientasi Objek (PBO) dengan implementasi struktur kode modular yang bersih dan terorganisir.
 
-BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) berbasis Command Line Interface (CLI). Aplikasi ini memungkinkan pengguna (admin dan customer) untuk melakukan investasi, memeriksa saldo, dan melakukan transaksi saham serta SBN
+BigHit Invest adalah aplikasi investasi saham dan Surat Berharga Negara (SBN) berbasis Command Line Interface (CLI). Aplikasi ini memungkinkan pengguna yaitu admin dan customer untuk melakukan investasi, memeriksa saldo, dan melakukan transaksi saham serta SBN
 
 
 **IDENTITAS KAMI**
 ------------------------------------------------------
-1. Ni Made Adelia Wirasanti NIM: 2405551010 Kelas PBO B
-2. Nyoman Paramita Windari NIM: 2405551050 Kelas PBO B
+1. Ni Made Adelia Wirasanti | NIM: 2405551010 | Kelas PBO B
+2. Nyoman Paramita Windari  | NIM: 2405551050 | Kelas PBO B
 
 
 **UML**
