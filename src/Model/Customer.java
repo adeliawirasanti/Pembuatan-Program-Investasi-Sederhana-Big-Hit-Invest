@@ -4,9 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Customer extends User {
+    // Menyimpan saham dan SBN yang dimiliki customer, dengan jumlah dan nominal tiap saham
     private Map<Saham, Integer> sahamDimiliki = new HashMap<>();
     private Map<SuratBerhargaNegara, Double> sbnDimiliki = new HashMap<>();
 
+    // Menginisialisasi objek customer dengan username dan password
     public Customer(String username, String password) {
         super(username, password);
     }
